@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="tests.CreateAccountPageTest">
+        <methods>
+          <include name="CreateAcc"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CreateAccountPageTest -->
+      <class name="tests.FlightStatusPageTest">
+        <methods>
+          <include name="testFlightPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.FlightStatusPageTest -->
+      <class name="tests.FlightTripTest">
+        <methods>
+          <include name="toFlightTrip"/>
+          <include name="tearDown"/>
+          <include name="toFlightTrip1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.FlightTripTest -->
+      <class name="tests.ExtendReportGenerator">
+        <methods>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- tests.ExtendReportGenerator -->
+      <class name="tests.ManageBookingPageTest">
+        <methods>
+          <include name="testManageBooking"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.ManageBookingPageTest -->
+      <class name="tests.CheckInPageTest">
+        <methods>
+          <include name="testCheckInPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CheckInPageTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="tests.CreateAccountPageTest">
+        <methods>
+          <include name="CreateAcc"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CreateAccountPageTest -->
+      <class name="tests.FlightStatusPageTest">
+        <methods>
+          <include name="testFlightPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.FlightStatusPageTest -->
+      <class name="tests.FlightTripTest">
+        <methods>
+          <include name="toFlightTrip"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="toFlightTrip1"/>
+        </methods>
+      </class> <!-- tests.FlightTripTest -->
+      <class name="tests.ExtendReportGenerator">
+        <methods>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- tests.ExtendReportGenerator -->
+      <class name="tests.ManageBookingPageTest">
+        <methods>
+          <include name="testManageBooking"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.ManageBookingPageTest -->
+      <class name="tests.CheckInPageTest">
+        <methods>
+          <include name="testCheckInPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CheckInPageTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
